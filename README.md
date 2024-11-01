@@ -580,4 +580,4 @@ function writeText() {
 ```
 
 # GITHUB PAGE
-I also deploy my project on Github Page, here is the link
+I also deploy my project on Github Page, here is the link https://revou-fsse-oct24.github.io/module-1-parsadi/
