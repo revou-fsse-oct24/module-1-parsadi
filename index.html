@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="propeller.png" alt="logo">
+            <h5>Clear Prop <br> Pilot Prep</h5>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#ourservice" class="nav-link">Our Services</a></li>
+            <li class="nav-item"><a href="#learning" class="nav-link">Learning Path</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+    <main>
+        <div class="quote" id="quote">
+            <div class="quote-inner">
+                <h1>"Pilot is a human that never stop learning."</h1>
+                <h6>Human are created with two legs, a pair of hands, and a
+                    single brain. We sees the fish then try to learn how to swim. However, when it comes to conquering
+                    the
+                    sky, we could not grow wings. Thus, we use our single brain to make a flying meachine that conquest
+                    bird
+                    domination high above"
+                </h6>
+            </div>
+        </div>
+        <h1 class="ourservice-title" id="ourservice">Our Services</h1>
+        <div class="grid-container container">
+
+            <div class="menu-container item1">
+                <img src="pilot_prep.jpg" alt="Preperation to become pilot">
+                <div class="learnMore">
+                    <h1>learn more</h1>
+                </div>
+                <div class="title">
+                    <h3>Aviation Basic Knowledge</h3>
+                </div>
+
+            </div>
+            <div class="menu-container item2">
+                <img src="ppl.jpg" alt="Private Pilot Theory">
+                <div class="learnMore">
+                    <h1>learn more</h1>
+                </div>
+                <div class="title">
+                    <h3>Private Pilot Theory</h3>
+                </div>
+
+
+            </div>
+            <div class="menu-container item3">
+                <img src="instrument.jpg" alt="Instrument Flying Theory">
+                <div class="learnMore">
+                    <h1>learn more</h1>
+                </div>
+                <div class="title">
+                    <h3>Instrument Flying Theory</h3>
+                </div>
+
+            </div>
+        </div>
+        <h1 id="learning" style="background-color: aquamarine;">Learning Path</h1>
+        <div class="body-container">
+            <div class="progress-container">
+                <div class="panel active" style="background-image: url(pilot_prep.jpg )">
+                    <h3>Step 1</h3>
+                    <p>This course is suit with all aspiring pilots out there. Here you will learn what is a pilot
+                        really
+                        do, what are the requirenments, how an aircraft could fly, and other related basic information
+                        regarding aviation. If you want to join a flying school, this course is the most recommended one
+                        you
+                        should took before progressing to our private pilot course</p>
+                </div>
+                <div class="panel " style="background-image: url(ppl.jpg )">
+                    <h3>Step 2</h3>
+                    <p>This course objective is to train aspiring pilot to get more depth knowledge regarding aviation.
+                        After completing this course, candidates are expected to be proficient in knowledge regarding
+                        safe
+                        flying conduct as a private pilot capacity or as a pilot-in-command in small aircraft</p>
+                </div>
+                <div class="panel " style="background-image: url(instrument.jpg )">
+                    <h3>Step 3</h3>
+                    <p>This course objective is to train aspiring private pilot to get more depth knowledge regarding
+                        flying operation with limited visibility and weather condition. After completing this course,
+                        candidates are expected to be proficient in knowledge regarding safe flying conduct as a
+                        pilot-in-command in IFR condition</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="contact-us-title">
+            <h1>Contact Us</h1>
+        </div>
+        <form action="#" class="contact-us">
+            <div class="contact-item">
+                <label class="contact-fill" for="name">Name :</label><br>
+                <input class="contact-input" type="text" id="name">
+            </div>
+            <div class="contact-item">
+                <label class="contact-fill" for="email">Email :</label><br>
+                <input class="contact-input" type="email" id="email">
+            </div>
+            <div>
+                <label for="">Course of Intention :</label><br>
+
+                <input type="radio" name="course" id="abk" value="abk">
+                <label for="abk">Aviation Basic Knowledge</label><br>
+
+                <input type="radio" name="course" id="ppt" value="ppt">
+                <label for="ppt">Private Pilot Theory</label><br>
+
+                <input type="radio" name="course" id="ift" value="ift">
+                <label for="ift">Instrument Flying Theory</label><br>
+            </div>
+            <div class="contact-item">
+                <label for="">Message :</label><br>
+                <textarea name="" placeholder="enter message here..." cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" id="submitButton">
+            </div>
+
+
+
+        </form>
+
+        <div class="text-container">
+            <h1 id="text">"Aviate, Navigate, Communicate"</h1>
+        </div>
+
+
+    </main>
+    <footer>
+        <p class="copyright">copyright 2024 by Clear Prop Pilot Prep Ltd.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
